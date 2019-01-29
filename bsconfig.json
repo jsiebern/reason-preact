@@ -1,0 +1,24 @@
+{
+    "name": "reason-preact",
+    "reason": {
+        "react-jsx": 2
+    },
+    "sources": [
+        {
+            "dir": "src",
+            "subdirs": true
+        }
+    ],
+    "package-specs": [
+        {
+            "module": "commonjs",
+            "in-source": true
+        }
+    ],
+    "suffix": ".bs.js",
+    "namespace": false,
+    "bsc-flags": ["-bs-super-errors", "-w -45", "-open Belt"],
+    "ppx-flags": [],
+    "bs-dependencies": [],
+    "refmt": 3
+}

@@ -1,0 +1,23 @@
+{
+    "name": "reason-preact",
+    "version": "1.0.0",
+    "description": "Experiments for Reason with Preact",
+    "main": "index.js",
+    "repository": "https://github.com/jsiebern/reason-preact.git",
+    "author": "Jonathan Siebern <jsiebern88@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel index.html",
+        "bsb:clean": "bsb -clean-world",
+        "bsb:make": "bsb -make-world",
+        "postinstall": "bsb -make-world"
+    },
+    "devDependencies": {
+        "bs-platform": "^4.0.18",
+        "bsb-js": "^1.1.7",
+        "parcel-bundler": "^1.11.0"
+    },
+    "dependencies": {
+        "preact": "^8.4.2"
+    }
+}
